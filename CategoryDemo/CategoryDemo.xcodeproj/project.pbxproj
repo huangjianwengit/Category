@@ -30,6 +30,7 @@
 		8C5337F81FFCB77800CF45E8 /* UITableView+NoExtraLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5337E51FFCB77800CF45E8 /* UITableView+NoExtraLine.m */; };
 		8C5337F91FFCB77800CF45E8 /* UIControl+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5337E71FFCB77800CF45E8 /* UIControl+Add.m */; };
 		8C5337FA1FFCB77800CF45E8 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5337EB1FFCB77800CF45E8 /* NSDate+Utils.m */; };
+		8C8A75811FFE04DF003EE537 /* UIImageView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8A75801FFE04DF003EE537 /* UIImageView+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,8 @@
 		8C5337E81FFCB77800CF45E8 /* UIControl+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Add.h"; sourceTree = "<group>"; };
 		8C5337EA1FFCB77800CF45E8 /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
 		8C5337EB1FFCB77800CF45E8 /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
+		8C8A757F1FFE04DF003EE537 /* UIImageView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Additions.h"; sourceTree = "<group>"; };
+		8C8A75801FFE04DF003EE537 /* UIImageView+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				8C5337DD1FFCB77800CF45E8 /* JHCategory.h */,
+				8C8A757E1FFE04B6003EE537 /* UIImageView */,
 				8C5337C01FFCB77800CF45E8 /* UIImage */,
 				8C5337C31FFCB77800CF45E8 /* UIScreen */,
 				8C5337C61FFCB77800CF45E8 /* UILabel */,
@@ -307,6 +311,15 @@
 				8C5337EB1FFCB77800CF45E8 /* NSDate+Utils.m */,
 			);
 			path = NSDate;
+			sourceTree = "<group>";
+		};
+		8C8A757E1FFE04B6003EE537 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				8C8A757F1FFE04DF003EE537 /* UIImageView+Additions.h */,
+				8C8A75801FFE04DF003EE537 /* UIImageView+Additions.m */,
+			);
+			path = UIImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -447,6 +460,7 @@
 				8C5337F91FFCB77800CF45E8 /* UIControl+Add.m in Sources */,
 				8C5337921FFCB72200CF45E8 /* ViewController.m in Sources */,
 				8C5337FA1FFCB77800CF45E8 /* NSDate+Utils.m in Sources */,
+				8C8A75811FFE04DF003EE537 /* UIImageView+Additions.m in Sources */,
 				8C5337F31FFCB77800CF45E8 /* UIView+Extension.m in Sources */,
 				8C5337EF1FFCB77800CF45E8 /* UIButton+SSEdgeInsets.m in Sources */,
 				8C5337F11FFCB77800CF45E8 /* UIView+Utils.m in Sources */,

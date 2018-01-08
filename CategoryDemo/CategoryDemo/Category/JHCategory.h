@@ -20,4 +20,5 @@
 #import "UIScreen+Additions.h"
 #import "UIButton+SSEdgeInsets.h"
 #import "TableViewAnimationKitHeaders.h"
+#import "UIImageView+Additions.h"
 #endif /* JHCategory_h */

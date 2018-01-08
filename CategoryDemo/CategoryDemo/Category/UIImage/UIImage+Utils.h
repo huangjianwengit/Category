@@ -40,6 +40,7 @@
  *  @return 缩略图
  */
 - (UIImage *)scaleToSize:(CGSize)size;
+
 //原始图片
 + (instancetype)imageWithOriginName:(NSString *)imageName;
 
