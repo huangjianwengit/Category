@@ -1,13 +1,16 @@
 //
-//  UIView+Extension.h
+//  UIView+Frame.h
+//  Device
 //
-//  Created by apple on 14-6-27.
-//  Copyright (c) 2014年 heima. All rights reserved.
+//  Created by Jivan on 2019/1/31.
+//  Copyright © 2019 Jivan. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (Extension)
+NS_ASSUME_NONNULL_BEGIN
+
+@interface UIView (Frame)
 
 @property (nonatomic, assign) CGFloat x;
 @property (nonatomic, assign) CGFloat y;
@@ -18,3 +21,5 @@
 @property (nonatomic, assign) CGSize size;
 
 @end
+
+NS_ASSUME_NONNULL_END

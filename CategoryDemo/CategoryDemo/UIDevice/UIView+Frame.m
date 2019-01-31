@@ -1,14 +1,14 @@
 //
-//  UIView+Extension.m
+//  UIView+Frame.m
+//  Device
 //
-//  Created by apple on 14-6-27.
-//  Copyright (c) 2014年 heima. All rights reserved.
+//  Created by Jivan on 2019/1/31.
+//  Copyright © 2019 Jivan. All rights reserved.
 //
 
-#import "UIView+Extension.h"
+#import "UIView+Frame.h"
 
-@implementation UIView (Extension)
-
+@implementation UIView (Frame)
 - (void)setX:(CGFloat)x
 {
     CGRect frame = self.frame;
@@ -83,8 +83,6 @@
 
 - (void)setSize:(CGSize)size
 {
-//    self.width = size.width;
-//    self.height = size.height;
     CGRect frame = self.frame;
     frame.size = size;
     self.frame = frame;
@@ -94,5 +92,6 @@
 {
     return self.frame.size;
 }
+
 
 @end
